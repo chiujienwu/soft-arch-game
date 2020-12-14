@@ -13,12 +13,12 @@ public class Orc extends Monster {
         int maxHealth = 60;
         int minGold = 3;
         int maxGold = 6;
-        setArmor(2);
 
         setName("Orc");
         Random random = new Random();
         setHealth(random.nextInt(maxHealth - minHealth + 1) + minHealth);
         setGold(random.nextInt(maxGold - minGold + 1) + minGold);
+        setArmor(2);
 
         // this can have the potential to have a second factory method
         // to choose a random weapon and pass into monster constructor
