@@ -13,6 +13,7 @@ public class Troll extends Monster {
         int maxHealth = 80;
         int minGold = 4;
         int maxGold = 8;
+        setArmor(4);
 
         setName("Troll");
         Random random = new Random();

@@ -13,6 +13,7 @@ public class Orc extends Monster {
         int maxHealth = 60;
         int minGold = 3;
         int maxGold = 6;
+        setArmor(2);
 
         setName("Orc");
         Random random = new Random();

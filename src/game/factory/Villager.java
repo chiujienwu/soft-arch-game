@@ -18,6 +18,7 @@ public class Villager extends Monster {
         Random random = new Random();
         setHealth(random.nextInt(maxHealth - minHealth + 1) + minHealth);
         setGold(random.nextInt(maxGold - minGold + 1) + minGold);
+        setArmor(2);
 
         // this can have the potential to have a second factory method
         // to choose a random weapon and pass into monster constructor
