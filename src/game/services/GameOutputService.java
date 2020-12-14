@@ -8,6 +8,9 @@ public class GameOutputService {
 
     private String message = "";
 
+    /**
+     * @param addMsg the message to be presented to the User
+     * */
     public void addToMessage(String addMsg) {
         message += addMsg;
     }

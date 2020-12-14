@@ -6,8 +6,11 @@ import java.util.Random;
  * */
 public class MonsterFactory {
 
-    int numberOfMonsters = 4;
+    final int numberOfMonsters = 4;
 
+    /**
+     * returns a random Monster from a fixed set
+     * */
     public Monster createMonster() {
 
         Monster newMonster;

@@ -1,9 +1,16 @@
 package game;
-
 import game.factory.Monster;
 import game.factory.MonsterFactory;
 import game.services.GameOutputService;
 import game.singleton.SingletonMap;
+
+/**
+ * A simple strategy game of a map with monsters that single player must fight to gain treasure
+ * Game player wins when he/she has picked up enough gold, or loses when defeated by Monsters.
+ *
+ * @author Jerry Chiu
+ *
+ * */
 
 public class Main {
 

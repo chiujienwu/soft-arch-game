@@ -1,7 +1,7 @@
 package game.strategy;
 
 /**
- * Weapons interface
+ * Weapons interface to allow for specific types to be implemented
  * */
 public interface Attacks {
     // gives a character object ability (behavior) to attack with a weapon
