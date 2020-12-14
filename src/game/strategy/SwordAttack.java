@@ -1,5 +1,8 @@
 package game.strategy;
 
+/**
+ * Concrete implementation of Attacks interface
+ * */
 public class SwordAttack implements Attacks {
     @Override
     public String attack() {
@@ -8,6 +11,6 @@ public class SwordAttack implements Attacks {
 
     @Override
     public int attackDamage() {
-        return 0;
+        return 15;
     }
 }

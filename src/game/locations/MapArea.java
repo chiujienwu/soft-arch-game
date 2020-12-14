@@ -2,9 +2,11 @@ package game.locations;
 
 import game.factory.Monster;
 import game.strategy.Attacks;
-
 import java.util.ArrayList;
 
+/**
+ * Class for Singleton pattern of a single game map to be instantiated.
+ * */
 public class MapArea {
 
     String name;

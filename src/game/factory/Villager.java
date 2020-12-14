@@ -1,10 +1,10 @@
 package game.factory;
-import game.strategy.AxeAttack;
 import game.strategy.FistAttack;
-
 import java.util.Random;
 
-
+/**
+ * A subclass of Monster, a specific implementation
+ * */
 public class Villager extends Monster {
 
     public Villager() {

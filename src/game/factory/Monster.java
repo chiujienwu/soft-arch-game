@@ -1,7 +1,9 @@
 package game.factory;
-
 import game.strategy.Attacks;
 
+/**
+ * Monster superclass for extensions
+ * */
 public abstract class Monster {
 
     private String name;

@@ -1,7 +1,9 @@
 package game.factory;
-
 import java.util.Random;
 
+/**
+ * Factory Method is used to provide random characters to appear on the map
+ * */
 public class MonsterFactory {
 
     int numberOfMonsters = 4;

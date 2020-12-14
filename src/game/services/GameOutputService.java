@@ -1,7 +1,9 @@
 package game.services;
-
 import javax.swing.*;
 
+/**
+ * User output interface service
+ * */
 public class GameOutputService {
 
     private String message = "";

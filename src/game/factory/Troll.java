@@ -2,7 +2,9 @@ package game.factory;
 import game.strategy.*;
 import java.util.Random;
 
-
+/**
+ * A subclass of Monster, a specific implementation
+ * */
 public class Troll extends Monster {
 
     public Troll() {

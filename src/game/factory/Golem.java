@@ -2,7 +2,9 @@ package game.factory;
 import game.strategy.AxeAttack;
 import java.util.Random;
 
-
+/**
+ * A subclass of Monster, a specific implementation
+ * */
 public class Golem extends Monster {
 
     public Golem() {

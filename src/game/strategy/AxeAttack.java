@@ -1,5 +1,8 @@
 package game.strategy;
 
+/**
+ * Concrete implementation of Attacks interface
+ * */
 public class AxeAttack implements Attacks {
 
     @Override
@@ -9,7 +12,7 @@ public class AxeAttack implements Attacks {
 
     @Override
     public int attackDamage() {
-        return 0;
+        return 20;
     }
 
 

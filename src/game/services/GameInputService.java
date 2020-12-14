@@ -1,6 +1,9 @@
 package game.services;
 import javax.swing.*;
 
+/**
+ * User interface service
+ * */
 public class GameInputService {
 
     String question;
