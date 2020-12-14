@@ -8,7 +8,7 @@ public abstract class Monster {
 
     private String name;
     private int health;
-    private String armor;
+    private int armor;
     private int gold;
     public Attacks typeOfAttack;
 
@@ -40,14 +40,14 @@ public abstract class Monster {
     /**
      * @return strength armor of Monster which helps reduce health damage
      * */
-    public String getArmor() {
+    public int getArmor() {
         return armor;
     }
 
     /**
      * @param armor sets armor of Monster
      * */
-    public void setArmor(String armor) {
+    public void setArmor(int armor) {
         this.armor = armor;
     }
 
