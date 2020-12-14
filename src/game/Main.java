@@ -9,7 +9,7 @@ import game.singleton.SingletonMap;
  * Game player wins when he/she has picked up enough gold, or loses when defeated by Monsters.
  *
  * @author Jerry Chiu
- *
+ * @version 1.0
  * */
 
 public class Main {
